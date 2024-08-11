@@ -1,0 +1,20 @@
+.one, .two, .three, .four{
+  border: 8px solid;
+  margin: 50px;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.one{
+  border-color: black;
+}
+.two{
+    border-color: red rgb(57, 39, 221)  rgb(118, 13, 118);
+}
+.three{
+    border-color: aqua violet pink rgb(228, 182, 121);
+}
+.four{
+    border-color: rgb(243, 157, 37) rgb(232, 20, 232) rgb(132, 28, 45) rgb(228, 182, 121);
+}

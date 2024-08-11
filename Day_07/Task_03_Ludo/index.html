@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludo</title>
+    <Style>
+        #box {
+            border: 2px solid black;
+            position: relative;
+            left: 25%;
+            top: 20%;
+            height: 500px;
+            width: 500px;
+        }
+
+        .one,
+        .two,
+        .three,
+        .four {
+            border: 2px solid brown;
+            position: absolute;
+            width: 182px;
+            height: 164px;
+        }
+
+        .one {
+            background-color: green;
+        }
+
+        .two {
+            position: relative;
+            left: 315px;
+            bottom: 1px;
+            background-color: yellow;
+        }
+
+        .three {
+            position: relative;
+            left: 315px;
+            top: 166px;
+            background-color: red;
+        }
+
+        .four {
+            background-color: #17a7cf;
+        }
+
+        .inerone,
+        .inertwo,
+        .inerthree,
+        .inerfour {
+            border: 2px solid #e27d01;
+            height: 110px;
+            width: 110px;
+            position: relative;
+            left: 35px;
+            top: 25px;
+            background-color: #fffdfa;
+        }
+
+        .inercircle,
+        .twocircle,
+        .threecircle,
+        .fourcircle {
+            border: 2px solid white;
+            border-radius: 50%;
+            position: relative;
+            height: 35px;
+            width: 36px;
+            background-color: green;
+            display: inline-block;
+            left: 10px;
+            top: 10px;
+        }
+
+        .twocircle {
+            background-color: yellow;
+        }
+
+        .threecircle {
+            background-color: red;
+        }
+
+        .fourcircle {
+            background-color: #17a7cf;
+        }
+        .line{
+            z-index: 1;
+        }
+    </Style>
+</head>
+
+<body>
+    <div id="box">
+        
+        <div class="one">
+            <div class="inerone">
+                <div class="inercircle"></div>
+                <div class="inercircle"></div>
+                <div class="inercircle"></div>
+                <div class="inercircle"></div>
+            </div>
+        </div>
+        <div class="two">
+            <div class="inertwo">
+                <div class="twocircle"></div>
+                <div class="twocircle"></div>
+                <div class="twocircle"></div>
+                <div class="twocircle"></div>
+            </div>
+        </div>
+        <div class="three">
+            <div class="inerthree">
+                <div class="threecircle"></div>
+                <div class="threecircle"></div>
+                <div class="threecircle"></div>
+                <div class="threecircle"></div>
+            </div>
+        </div>
+        <div class="four">
+            <div class="inerfour">
+                <div class="fourcircle"></div>
+                <div class="fourcircle"></div>
+                <div class="fourcircle"></div>
+                <div class="fourcircle"></div>
+            </div>
+        </div>
+
+      
+    </div>
+</body>
+
+</html>
